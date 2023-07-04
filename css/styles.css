@@ -1,0 +1,219 @@
+:root {
+    --iris: #4D5AE5;
+    --navyblue: #2E2F42;
+    --white: #FFF;
+    --slate: #434455;
+    --cloud: #F4F4FD;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--slate);
+    background-color: var(--white);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.list li:first-child a:hover {
+    color: #404BBF;
+}
+
+.list li:first-child a:focus {
+    color: #404BBF;
+}
+
+.visually-hidden {
+    margin: -1px;
+    border: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.header-logo {
+    color: var(--iris);
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    line-height: 1.17;
+}
+
+.header-menu-link {
+    color: var(--navyblue);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+    color: var(--iris);
+}
+
+.header-address {
+    font-style: normal;
+}
+
+.header-address-link {
+    color: var(--slate);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.header-address-link:hover, .header-address-link:focus{
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+.hero {
+    background-color: var(--navyblue);
+}
+
+.hero-title {
+    color: var(--white);
+    font-size: 56px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
+
+.hero-button {
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.50;
+    letter-spacing: 0.04em;
+    background-color: var(--iris);
+    cursor: pointer;
+}
+
+.advantages {
+    background-color: var(--white);
+}
+
+.advantages-subtitle {
+    color: var(--navyblue);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.20;
+    letter-spacing: 0.02em;
+}
+
+.advantages-item-text {
+    color: var(--slate);
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+}
+
+.action-title {
+    color: var(--navyblue);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.team {
+    background-color: var(--cloud);
+}
+
+.team-title {
+    color: var(--navyblue);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: var(--cloud);
+}
+
+.team-subtitle {
+    color: var(--navyblue);
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.team-item {
+    background-color: var(--white);
+}
+
+.team-item-text {
+    color: var(--slate);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    background-color: var(--white);
+}
+
+.team-list {
+    background-color: var(--white);
+}
+
+.footer {
+    background: var(--navyblue);
+}
+
+.footer-item-text {
+    color: var(--cloud);
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+}
+
+.locator-button-all {
+    background-color: var(--cloud);
+    color: var(--iris);
+    text-align: center;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.50;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.locator-button-all:hover, .locator-button-all:focus{
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+.portfolio-subtitle {
+    color: var(--navyblue);
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.20;
+    letter-spacing: 0.02em;
+}
+
+.portfolio-item-text {
+    color: var(--slate);
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+}
