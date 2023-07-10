@@ -337,6 +337,22 @@ body {
     max-width: 264px;
 }
 
+.portfolio-container{
+    display: flex;
+}
+
+.button{
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
+.button-list{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+
 .locator-button-all {
     background-color: var(--cloud);
     color: var(--iris);
@@ -347,11 +363,31 @@ body {
     line-height: 1.50;
     letter-spacing: 0.04em;
     cursor: pointer;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
 }
 
 .locator-button-all:hover, .locator-button-all:focus{
     color: #FFFFFF;
     background-color: #404BBF;
+    border: 1px solid transparent;
+}
+
+.portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.container-app{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .portfolio-subtitle {
@@ -361,6 +397,11 @@ body {
     font-weight: 500;
     line-height: 1.20;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
+}
+
+.portfolio-item{
+    width: calc((100% - 48px) / 3);
 }
 
 .portfolio-item-text {
